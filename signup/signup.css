@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: l0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#dfdfdf ;
+}
+
+.page{
+    height: 70vh;
+    width: 400px;
+    margin: 100px auto;
+    background-color: white;
+    border-radius: 20px;
+    transform: translatey(20px);
+    padding: 50px;
+}
+
+h5{
+    margin: 20px 0 20px 80px;
+}
+h4{
+    margin: 10px 0 0 140px;
+}
+
+.input{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    border-color: #c1bcbc;
+}
+
+p{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.continue{
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+    /* border: 2px solid black; */
+    border: none;
+    cursor: pointer;
+    width: 290px;
+    height: 36px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.Facebook{
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    /* border: 2px solid black; */
+    border: none;
+    cursor: pointer;
+    width: 290px;
+    height: 36px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.Google{
+    margin-top: 20px;
+    background-color: whitw;
+    color: black;
+    border: 2px solid black;
+    border: none;
+    cursor: pointer;
+    /* padding: 15px 80px; */
+    width: 290px;
+    height: 36px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 20px;
+}

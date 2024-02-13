@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+</head>
+<body>
+<!-- Navbar -->
+<div class="navbar">
+    <div class="nav-items">
+        <h1 class="logo">The Fabrica</h1>
+        <div class="search">
+            <form action="#">
+                <input type="text" name="" id="search" placeholder="Search your item for shopping">
+            </form>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <div class="order">My Cart <i class="fa-solid fa-cart-shopping"></i></div>
+        <div class="profile"><i class="fa-regular fa-user"></i> Profile </div>
+        <a href="signup/signin.html" class="signin button">Sign-In</a>
+        <a href="signup/signup.html" class="Signup button">Sign-Up</a>
+    </div>
+</div>
+<!-- navbar footer -->
+<hr>
+<button class="bars" id="bar"> <i class="fa-solid fa-bars"></i></button>
+<div class="services">
+<ul class="flex">
+    <li><a href="" class="links">Home</a></li>
+    <li><a href="#men" class="links ">Men's</a></li>
+    <li><a href="#women" class="links">Women's</a></li>
+    <li><a href="#boys" class="links">Boy's</a></li>
+    <li><a href="" class="links">Gift cards</a></li>
+    <li><a href="" class="links">Baby</a></li>
+    <li><a href="" class="links">Girls</a></li>
+    <li><a href="" class="links">Winter clothes</a></li>
+    <li><a href="" class="links">Summer clothes</a></li>
+</ul>
+</div>
+
+<!-- first page -->
+<!-- image slider -->
+<div class="container">
+     <div id="slider">
+        <ul id="slideWrap"> 
+            <li><img src="img/1.jpg" alt=""></li>
+            <li><img src="img/2.jpeg" alt=""></li>
+            <li><img src="img/3.jpg" alt=""></li>
+            <li><img src="img/4.jpg" alt=""></li>
+            <li><img src="img/5.jpg" alt=""></li>
+        </ul>
+        <a id="prev" href="#">&#8810;</a>
+        <a id="next" href="#">&#8811;</a>
+    </div>
+</div>
+
+<!-- second page -->
+<div class="page2">
+    <div class="items">
+        <div class="box box-1" style="background-image: url(https://plus.unsplash.com/premium_photo-1679056835084-7f21e64a3402?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80);"></div>
+
+        <div class="box box-2" style="background-image: url(https://images.unsplash.com/photo-1562157873-818bc0726f68?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=627&q=80);"></div>
+
+        <div class="box box-3" style="background-image: url(https://images.unsplash.com/photo-1588099768531-a72d4a198538?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80);"></div>
+
+        <div class="box box-4" style="background-image: url(https://media.istockphoto.com/id/872828938/photo/mens-clothing-and-personal-accessories.jpg?s=2048x2048&w=is&k=20&c=NDCfUGX6qVNBzqNDp4AcSUOC1Jx2-GziQ-eSCgLc8Ns=);"></div>
+
+        <div class="box box-5" style="background-image: url(https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);"></div>
+    </div>
+</div>
+
+<!-- page 3 for men's -->
+
+<div class="mens" id="men">
+    <h1 class="heading">Shop for Men's</h1>
+    <div class="boxes">
+        <span class="sec-1 box-hover"> <p>Shirt</p></span>
+        <span class="sec-2 box-hover"><p>Trouser</p></span>     
+        <span class="sec-3 box-hover"><p>T-Shirt</p></span>
+        <span class="sec-4 box-hover"><p>Shoes</p></span>
+    </div>
+</div>
+<!-- page 4 for women's cloth -->
+<div class="Womens" id="women">
+    <h1 class="heading">Shop for Women's</h1>
+    <div class="boxes">
+        <span class="sec-5 box-hover"> <p>Kurta</p></span>
+        <span class="sec-6 box-hover"><p>Jeans</p></span>     
+        <span class="sec-7 box-hover"><p>Top-Crop</p></span>
+        <span class="sec-8 box-hover"><p>Hills</p></span>
+    </div>
+</div>
+<!-- page 4 for childrens cloth -->
+<div class="childrens" id="boys">
+    <h1 class="heading">Shop for childs</h1>
+    <div class="boxes">
+        <span class="sec-9 box-hover"> <p>Shirt</p></span>
+        <span class="sec-10 box-hover"><p>Jeans</p></span>     
+        <span class="sec-11 box-hover"><p>T-Shirt</p></span>
+        <span class="sec-12 box-hover"><p>Shoes</p></span>
+    </div>
+</div>
+
+<!-- page 5 footer -->
+
+<div class="footer">
+    <div class="line-1 parts">
+        <p>About</p>
+        <a href="">Contact Us</a>
+        <a href="">About us</a>
+        <a href="">Career</a>
+        <a href="">Corporate information</a>
+    </div>
+    <div class="line-2 parts">
+    <p>Help</p>
+    <a href="">Payment</a>
+    <a href="">Shipping</a>
+    <a href="">Cancelation & return</a>
+    <a href="">FAQS</a>
+    </div>
+    <div class="line-3 parts">
+        <p>Service Poloicy</p>
+        <a href="">Contact Us</a>
+        <a href="">About us</a>
+        <a href="">Career</a>
+        <a href="">Corporate information</a>
+    </div>
+    <div class="line-4 parts">
+        <p>Social</p>
+        <a href="">Facebook</a>
+        <a href="">Twitter</a>
+        <a href="">Instagram</a>
+        <a href="">Youtube</a>
+    </div>
+</div>
+
+    <script src="javascript.js"></script>
+    <script src="https://kit.fontawesome.com/c4a3389572.js" crossorigin="anonymous"></script>
+</body>
+</html>
